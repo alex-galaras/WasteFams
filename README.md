@@ -1,6 +1,6 @@
 # WasteFams
 
-Protein family catalog built from global wastewater metagenomes and isolate genomes (IMG/GOLD), plus downstream functional characterization of the resulting families.
+Here, we present WasteFams, the first comprehensive database dedicated to the systematic exploration of protein families in wastewater metagenomic and metatranscriptomic studies worldwide. Integrating data from 580 metagenomes, 132 metatranscriptomes, and 1,709 reference genomes, WasteFams catalogs 3,887 non-redundant protein families (containing ⪰100 members) derived from over 105 million predicted proteins. Each protein family is enriched with multi-layered annotations, including AlphaFold3 structural predictions, taxonomic classifications, and biome-specific metadata. To further expand their functional annotation, we integrated deep genomic context analysis to link protein families to Mobile Genetic Elements (MGEs), Biosynthetic Gene Clusters (BGCs), Antibiotic Resistance Genes (ARGs), and CRISPR elements. Accessible through the EnvoFams portal, WasteFams provides a user-friendly interface featuring advanced search capabilities, sequence and structural similarity tools, and interactive visualization modules. The database can be found in the [WasteFams]https://www.envofams.org/wastefams) portal.
 
 ## Contents
 
