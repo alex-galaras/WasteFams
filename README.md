@@ -32,19 +32,17 @@ Large intermediate/reference files (scaffold FASTAs, taxonomic lineage tables, s
 
 - **MMseqs2** 18.8cc5c
 - **TANTAN** 51
-- **MAFFT**
+- **MAFFT** 7.490
 - **HH-suite (hhfilter)** 3.3.0
 - **Prodigal** 2.6.3
-- **DIAMOND**
-- **HMMER** (Pfam annotation)
+- **DIAMOND** 2.0.14
+- **HMMER** (Pfam annotation) 3.3.2
 - **antiSMASH** 8.0.4
-- **RGI / CARD**
-- **Foldseek**
-- **bedtools**
-- **cctyper** (CRISPR typing)
+- **RGI / CARD** 6.0.4 / 3.2.7
+- **Foldseek** 799792f
+- **bedtools** 2.30.0
+- **cctyper** (CRISPR typing) 1.8.0
 - R packages: `dplyr`, `tidyr`, `tibble`, `stringr`, `readr`, `ggplot2`, `scales`, `patchwork`, `ComplexUpset`, `ComplexHeatmap`, `circlize`
-
-AlphaFold3 model prediction and the antiSMASH/DIAMOND-derived BGC co-occurrence network (an input to `bgc-discovery/`) are upstream steps not run by any script in this repository; see each pipeline's `pipeline.md` for exactly what it expects as input.
 
 ## Notes
 
