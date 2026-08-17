@@ -1,0 +1,54 @@
+name: wastefams
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- Protein family generation (protein-family-generation/) ---
+  - mmseqs2=18.8cc5c
+  - tantan=51
+  - mafft
+  - hhsuite=3.3.0
+
+  # --- Python (mafft/hhfilter/trimming parallelization scripts) ---
+  - python=3.9
+  - pandas
+  - "numpy<2.0"
+  - scikit-learn
+
+  # --- ARG discovery (arg-discovery/) ---
+  - rgi=6.0.4
+
+  # --- Wastewater structures (wastewater-structures/) ---
+  - foldseek
+
+  # --- CRISPR elements (crispr/) ---
+  - cctyper
+  - bedtools
+
+  # --- MGE analysis (mge-analysis/) ---
+  - prodigal=2.6.3
+  - diamond
+
+  # --- Pfam annotation (pfam-annotation/) ---
+  - hmmer
+
+  # --- BGC discovery (bgc-discovery/) ---
+  - antismash=8.0.4
+  - r-complexupset
+  - r-scales
+
+  # --- Gene neighborhood (gene-neighborhood/) ---
+  # (diamond already listed under MGE analysis above)
+
+  # --- R (exploratory/summary plots; ComplexHeatmap/circlize for the
+  #     ARG-discovery and biome-distribution heatmaps) ---
+  - r-base
+  - r-dplyr
+  - r-tidyr
+  - r-tibble
+  - r-stringr
+  - r-readr
+  - r-ggplot2
+  - r-patchwork
+  - bioconductor-complexheatmap
+  - r-circlize

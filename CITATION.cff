@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the WasteFams protein family
+  catalog, please cite it as below. 
+title: "WasteFams: A database of protein families from global wastewater microbiomes
+", doi: https://doi.org/10.64898/2026.05.08.723720
+type: software
+authors:
+  - family-names: Galaras
+    given-names: Alexandros
+    email: galaras@fleming.gr
+# TODO: add remaining co-authors here, e.g.
+#  - family-names: <Surname>
+#    given-names: <Given name>
+#    affiliation: <Institution>
+version: 0.1.0
+date-released: "2026-08-15"
+repository-code: "TODO: add the GitHub repository URL once created"
+license: MIT
+preferred-citation:
+  type: article
+  title: "TODO: paper title"
+  authors:
+    - family-names: Galaras
+      given-names: Alexandros
+  journal: "TODO: journal name"
+  year: 2026
+  doi: "TODO: DOI once assigned"
