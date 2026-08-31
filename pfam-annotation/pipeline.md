@@ -76,5 +76,5 @@ Maps each family's Pfam domain to a GO id via `pfam2go`, resolves that id to its
 
 | Tool | Version |
 |---|---|
-| HMMER | latest |
-| Pfam-A | latest |
+| HMMER | 3.3.2 |
+| Pfam-A | v.37 |
