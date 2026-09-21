@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use WasteFams, please cite it as follows."
-title: "WasteFams: A database of protein families from global wastewater microbiomes"
-authors:
-  - family-names: Galaras
-    given-names: Alexandros
-    orcid: "https://orcid.org/0000-0001-8167-9331"
-version: "1.0.0"
-date-released: "2026-09-21"
